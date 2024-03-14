@@ -9,8 +9,8 @@
     width: 100%;
     height: 100vh;
     background-image: url(../assets/background.png);
-    /* background-size: cover;
-    background-position: center;  */
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,22 +21,22 @@
     text-align: center;
     padding: 40px 90px;
     color: #fff;
-    position: relative; 
     border-radius: 20px;
 } 
 
+.menu-settings {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
 .menu-icon {
     width: 25px;
-    position: absolute;
-    left: 40px;
-    top: 40px;
 }
 
 .setting-icon {
     width: 25px;
-    position: absolute;
-    right: 40px;
-    top: 40px;
 }
 
 .profile-pic {
